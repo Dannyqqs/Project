@@ -262,21 +262,34 @@ a {
   justify-content: left;
   gap: 100px;
 }
-.storyon {
-  width: 470px;
-  height: 450px;
-  margin: 0%;
+.sory{
+    width: 70%;
+    margin: auto;
+    
 }
-
+.sory img{
+    width: 100%; 
+    height: 520px; 
+    margin: auto;
+}
 .sevr {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sew{
+    width: 80%;
+    margin: 0%;
+    font-size: 2rem;
+}
+.oopl{
+    margin: 0%;
 }
 .sevr h1 {
   font-size: 2rem;
   width: 80%;
+  margin: 0%;
 }
 
 .iand {
@@ -423,9 +436,24 @@ a {
     flex-direction: column;
     width: 80%;
   }
+  .storyon{
+    width: 80%;
+  }
+  .storyon img{
+    margin: auto;
+    width: 80%;
+  }
+
   .sevr {
     width: 100%;
     text-align: center;
+  }
+  .sew{
+    width: 100%;
+    margin: 0;
+  }
+  .sew h1{
+    width: 100%;
   }
   .footer {
     padding: 20px 30px;
@@ -473,6 +501,9 @@ a {
 
     margin: auto;
   }
+  .sory img{
+    height: 400px;
+}
   .sect2 {
     padding-top: 150px;
     display: flex;
