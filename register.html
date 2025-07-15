@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register Account</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin-top: -50px;
+    }
+
+    .register-box {
+      max-width: 500px;
+      width: 100%;
+      padding: 40px 30px;
+      text-align: left;
+    }
+
+    .register-box h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #111;
+      margin-bottom: 8px;
+    }
+
+    .register-box p.subtitle {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    form {
+      text-align: left;
+    }
+
+    label {
+      font-size: 0.9rem;
+      color: #111;
+      font-weight: 500;
+    }
+
+    .required {
+      color: red;
+    }
+
+    input {
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 10px;
+      border: none;
+      background-color: #eee;
+      font-size: 1rem;
+      margin: 20px 0 50px;
+    }
+
+    .register-btn {
+      width: 100%;
+      background-color: #4c77f5;
+      border: none;
+      color: white;
+      padding: 14px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .register-btn:hover {
+      background-color: #3a64d8;
+    }
+
+    .back-link {
+      margin-top: 50px;
+      display: block;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    @media (max-width: 480px) {
+      .register-box {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="register-box">
+    <h1>Let's get started 🎉</h1>
+    <p class="subtitle">Register to start saving and investing with Piggyvest today!</p>
+
+    <form>
+      <label for="name">First & Last Name <span class="required">*</span></label>
+      <input type="text" id="name" name="name" placeholder="e.g John Doe" required>
+
+      <button type="submit" class="register-btn">Create a Free Account</button>
+    </form>
+
+    <a href="./index.html" class="back-link">back</a>
+  </div>
+
+</body>
+</html>
